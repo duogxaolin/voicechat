@@ -1,0 +1,29 @@
+.commentAction {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentsList {
+    margin-top: 1px;
+    flex: 1;
+    padding: 8px 16px;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.commentInput {
+    margin-right: 8px;
+}
+
+.tabsOuter {
+    height: 100%;
+}
+
+.peerItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

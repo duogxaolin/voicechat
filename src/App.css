@@ -1,0 +1,44 @@
+body {
+  padding: 0; margin: 0;
+  background-color: #000;
+}
+
+html, body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFFFFF11;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF22;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.communication-card .ant-tabs-content.ant-tabs-content-top {
+  height: 100%;
+}
+
+.communication-card .ant-tabs-content .ant-tabs-tabpane-active {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
